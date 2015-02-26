@@ -1,0 +1,22 @@
+{
+    "name": "unitecontrol-test-task",
+    "version": "0.0.1",
+    "main": "main.js",
+    "dependencies": {
+        "lodash": "~2.4.x",
+        "when": "~3.6.x"
+    },
+    "devDependencies": {
+        "mocha": "~1.21.x",
+        "sinon": "~1.10.x",
+        "should": "~4.0.x",
+        "grunt": "~0.4.x",
+        "grunt-cli": "~0.1.x",
+        "grunt-mocha-test": "~0.9.x",
+        "grunt-jscs-checker": "~0.4.3",
+        "grunt-contrib-jshint": "~0.10.x"
+    },
+    "scripts": {
+        "test": "./node_modules/grunt-cli/bin/grunt test"
+    }
+}
